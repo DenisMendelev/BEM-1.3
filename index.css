@@ -1,0 +1,529 @@
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('TTLakes-Bold.eot');
+  src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+      url('TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+      url('TTLakes-Bold.woff') format('woff'),
+      url('TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('TTLakes-Medium.eot');
+  src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+      url('TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+      url('TTLakes-Medium.woff') format('woff'),
+      url('TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('TTLakes-Regular.eot');
+  src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+      url('TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+      url('TTLakes-Regular.woff') format('woff'),
+      url('TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family:"TT Lakes", sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.body {
+  background: #F8F8F8;
+}
+
+@media (min-width: 320px) {
+
+
+.menubar {
+  background: #fff;
+  max-height:88px;
+  border-bottom: 2px solid #D9FFF5;
+  min-width: 320px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-button__item-part1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.menu-button__item-part1::after {
+  content: "";
+  height: 32px;
+  border: 2px #EAEAEA solid;
+  left: 186px;
+}
+
+.menu-button__item-part2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  list-style-type: none;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item1 {
+  background-color:none;
+  border: none;
+  background: #FFF;
+  padding: 0;
+  margin:26px 16.73px 22px 16px;
+  cursor: pointer;
+}
+
+.item2 {
+  width: 96.548px;
+  height: 50.815px;
+  flex-shrink: 0;
+  margin: 18.59px 16.73px 18.59px 0;
+}
+
+.item3 {
+  display: none;
+  background-color:none;
+  border: none;
+  background: #FFF;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  margin: 24px 16px 24px 0;
+  cursor: pointer;
+}
+
+.item4 {
+  display: none;
+  background-color:none;
+  border: none;
+  background: #FFF;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  margin: 24px 16px 24px 0;
+  cursor: pointer;
+}
+
+.item5 {
+  display: none;
+  background-color:none;
+  border: none;
+  background: #FFF;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  margin: 24px 20px 24px 0;
+  cursor: pointer;
+}
+
+.item6, .item7 {
+  background-color:none;
+  border: none;
+  background: #FFF;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  margin:24px 16px 24px 0 ;
+  cursor: pointer;
+}
+
+.main__title {
+  margin-bottom: 24px;
+}
+
+.title-part1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.title-part1__img {
+  width: 4px;
+  height: 40px;
+  flex-shrink: 0;
+  padding-top: 24px;
+  flex-shrink: 0;
+}
+
+.title-part1__heading {
+  margin: 0;
+  color: #1B1C21;
+  font-family: TT Lakes;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  padding: 24px 16px 0 16px;
+}
+
+.title-part1__heading::before {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 4px;
+  left: 0;
+  background-color: #41F6D7;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.title-part2__list-item {
+  display: none;
+}
+
+/* Основная навигация */
+
+.main__navigation {
+  padding: 0;
+  margin: 0 16px 0 16px;
+}
+
+.navigation-list {
+  color: #7E7E82;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  display: flex;
+  list-style-type:none;
+  overflow-x: scroll; 
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-list__item {
+  border: 2px solid transparent;
+  color: #7E7E82;
+  white-space: nowrap;
+}
+
+.navigation-list__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 16.67px 8px 16.67px;
+  margin:0;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* Скрываю скрол у навигации */
+.navigation-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Делаю выделение элементов  */
+.navigation-list__item:focus,
+.navigation-list__item:hover {
+  background-color:#FFF;
+  border-radius: 6px;
+  border-color: #B8FFEC;
+}
+
+/* Текст страницы и картинка */
+
+.main__content {
+  margin-top: 24px;
+}
+
+.main__text {
+  display: flex;
+  flex-direction: column; 
+  margin: 0px 16px 0 16px;
+}
+
+.main__text-1,
+.main__text-2,
+.main__text-3 {
+  color: #1B1C21;
+  font-family: TT Lakes;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  margin:0;
+}
+
+.main__text-2,
+.main__text-3 {
+  display: none;
+}
+
+/* Кнопка в секции */
+
+.main__button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  border: none;
+  background: none;
+}
+
+.button__img{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin:16px 8px 12px 0 ;
+}
+
+.button__text{
+  color: #1B1C21;
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  background: none;
+  border: none;
+  margin:16px 0 12px 0;
+  cursor: pointer;
+}
+
+.main__img {
+display: flex;
+justify-content: center;
+}
+
+}
+
+/* При расширении экрана более 768px */
+
+@media (min-width: 768px) {
+
+/* Шапка */
+.header__container {
+  margin: 0 8px 0 8px;
+}
+
+.item1 {
+  margin-right: 20px;
+}
+
+.item3,
+.item4,
+.item5 {
+  display: flex;
+}
+
+.menu-button__item-part1 {
+  gap: 15px;
+}
+
+.menu-button__item-part1::after {
+  position: absolute;
+  content: "";
+  height: 32px;
+  border: 2px #EAEAEA solid;
+  left: 80px;
+}
+
+.divider {
+  margin-right: 20px;
+  content: "";
+  height: 32px;
+  border: 2px #EAEAEA solid; 
+}
+
+/* Тело */
+/* Заголовок */
+.main__title {
+  margin-bottom: 32px;
+}
+
+.title-part1__heading {
+  padding:24px 16px 0 24px;
+}
+
+/* Навигация */
+.main__navigation {
+  margin: 0 24px 0 24px;   
+}
+
+.navigation-list__item {
+  margin-bottom: 0;
+}
+
+/* Текст */
+.main__content {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+
+.main__text {
+  margin:0 0 54px 24px ;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.main__text-2 {
+  display: flex;
+}
+
+/* Кнопка */
+.main__button {
+  gap: 8px;
+}
+
+.button__img {
+  margin: 0;
+}
+  
+.button__text {
+  margin: 0;
+}
+
+/* Картинка */
+.main__img1 {
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-bottom: 14.34px;
+}
+
+}
+
+/* При расширении экрана более 1120px */
+
+@media (min-width: 1120px) {
+  
+/* Ограничение максимальной ширины контента */
+.main {
+  max-width:1120px;
+}
+
+/* Шапка */
+.menubar {
+  display: none;
+}
+
+/* Заголовок */
+.main__title {
+  display: flex;
+  justify-content: space-between;
+  margin:0 32px 8.37px 0;
+  align-items:center;
+}
+
+.title-part1__img {
+  padding: 0;
+  margin: 42px 0 0 0;
+}
+
+.title-part1__heading {
+  padding: 0 0 0 30px;
+  margin: 42px 0 0 0;
+}
+
+.title-part2__list {
+  display: flex;
+  gap: 80px;
+}
+
+.title-part2__list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  margin-top: 42px;
+}
+
+.title-part2__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.title-part2__text {
+  display: flex;
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/* Навигация */
+.main__navigation {
+margin: 0 32px 0 32px;
+}
+
+.navigation-list {
+  flex-wrap: wrap;
+}
+
+.navigation-list__item {
+  margin-top: 0;
+}
+
+/* Текст */
+.main__text {
+  margin:0 0 54px 34px ;
+  gap: 13.78px;
+  justify-content: flex-start;
+}
+
+.main__text-2 {
+  display: none;
+}
+
+.main__text-3 {
+  display: flex;
+}
+
+/* Кнопка */
+.main__button {
+  gap: 8px;
+}
+
+/* Картинка */
+.main__img1 {
+  width: 531.346px;
+  height: 383.241px;
+  flex-shrink: 0;
+}
+
+}
