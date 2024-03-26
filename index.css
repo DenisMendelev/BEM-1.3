@@ -45,16 +45,16 @@
 
 .body {
   background: #F8F8F8;
+  min-width: 320px;
 }
 
-@media (min-width: 320px) {
+
 
 
 .menubar {
   background: #fff;
   max-height:88px;
   border-bottom: 2px solid #D9FFF5;
-  min-width: 320px;
 }
 
 .header__container {
@@ -317,7 +317,7 @@ display: flex;
 justify-content: center;
 }
 
-}
+
 
 /* При расширении экрана более 768px */
 
@@ -482,6 +482,7 @@ justify-content: center;
   background: none;
   border: none;
   cursor: pointer;
+  padding: 8px;
 }
 
 
